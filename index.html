@@ -201,6 +201,10 @@
     }
 
     .contact-card p {
+      margin-bottom: 18px;
+    }
+
+    .contact-card p:last-of-type {
       margin-bottom: 24px;
     }
 
@@ -260,6 +264,10 @@
       flex-wrap: wrap;
     }
 
+    .footer-centre {
+      color: #9a9a9a;
+    }
+
     @media (max-width: 920px) {
       .hero,
       .section {
@@ -287,6 +295,10 @@
 
       h1 {
         line-height: 0.96;
+      }
+
+      footer {
+        justify-content: flex-start;
       }
     }
 
@@ -316,8 +328,8 @@
     <header class="topbar">
       <div class="brand">Sarah Rexon</div>
       <nav class="nav">
-        <a href="#sessions">Sessions</a>
         <a href="#background">Background</a>
+        <a href="#sessions">Sessions</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -335,7 +347,7 @@
         <div class="meta-block">
           <div class="meta-label">Contact</div>
           <div class="meta-value">
-            <a href="mailto:Sarah.Rexon@outlook.com">sarah.rexon@outlook.com</a>
+            <a href="mailto:sarah.rexon@outlook.com">sarah.rexon@outlook.com</a>
           </div>
         </div>
 
@@ -374,20 +386,6 @@
 
     <div class="divider"></div>
 
-    <section class="section" id="sessions">
-      <div class="section-label">Sessions</div>
-      <div class="section-content">
-        <p>
-          I offer ongoing therapy once or twice a week.
-        </p>
-        <p>
-          I hold a small number of low-fee spaces and also work with the Site for Contemporary Psychoanalysis low-fee clinic.
-        </p>
-      </div>
-    </section>
-
-    <div class="divider"></div>
-
     <section class="section" id="background">
       <div class="section-label">Background</div>
       <div class="section-content">
@@ -395,7 +393,24 @@
           I am a psychoanalyst in training at the Site for Contemporary Psychoanalysis.
         </p>
         <p>
-          I am also a Registered Mental Health Nurse and Non-Medical Prescriber. I currently work within NHS mental health services, specialising in crisis and access pathways and I am trained in Dialectical Behaviour Therapy. I also work for different settings offering assessments for neurodiverse individuals.
+          I am also a Registered Mental Health Nurse and Non-Medical Prescriber. I currently work within NHS mental health services, specialising in crisis and access pathways and I am trained in Dialectical Behaviour Therapy. I also work in different settings offering assessments for neurodiverse individuals.
+        </p>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section" id="sessions">
+      <div class="section-label">Sessions</div>
+      <div class="section-content">
+        <p>
+          I offer ongoing therapy once or twice a week.
+        </p>
+        <p>
+          I work on a sliding scale fee based on your affordability.
+        </p>
+        <p>
+          I hold a small number of low-fee spaces and also work with the Site for Contemporary Psychoanalysis low-fee clinic.
         </p>
       </div>
     </section>
@@ -409,6 +424,9 @@
           <p>
             If you would like to enquire about therapy, please complete the form below or email directly.
           </p>
+          <p>
+            The initial consultation is free and we can discuss the format and whether it might be the right fit.
+          </p>
           <div class="actions">
             <a class="button" href="https://forms.office.com/r/N20miDPNdc" target="_blank" rel="noopener">Complete enquiry form</a>
             <a class="text-link" href="mailto:sarah.rexon@outlook.com">Email directly</a>
@@ -419,6 +437,7 @@
 
     <footer>
       <div>Sarah Rexon</div>
+      <div class="footer-centre">Held Group LTD</div>
       <div>Psychoanalytic Psychotherapy</div>
     </footer>
   </div>
